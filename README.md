@@ -18,6 +18,7 @@ Built as part of the PROG6221 POE at Varsity College.
 - Quick security quiz with scoring
 - Chat history tracking
 - Colour-coded console UI with typing animations
+- A Quiz
 
 ---
 
@@ -31,6 +32,12 @@ Built as part of the PROG6221 POE at Varsity College.
 ---
 
 ## Project Structure---
+POEPractice/
+├── Models/          - UserProfile model
+├── Services/        - ChatbotService, ResponseService, AudioPlayer
+├── UI/              - ConsoleUI
+├── Assets/          - WAV audio file
+└── Program.cs       - Entry point
 
 ## GitHub Actions CI
 
@@ -42,7 +49,7 @@ Every push is automatically built and checked.
 <img width="1872" height="872" alt="Screenshot " src="https://github.com/user-attachments/assets/3ef55b89-692d-4c5e-92b0-366bf4dcae3a" />
 
 ##Video Presentation
----
+
 
 ## Author
 
