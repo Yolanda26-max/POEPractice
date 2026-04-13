@@ -57,18 +57,19 @@ namespace POEPractice.UI
             // Shield + tagline
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(@"
-         /\     CYBER
-        /  \    GUARDIAN
-       / /\ \   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-      / /  \ \  [ ENCRYPT . DEFEND . PROTECT ]
-     / /----\ \
-    /_/  []  \_\  ""The lock on your digital door.""
-    |   [  ]   |
-    |___________|
+        [=======]
+        |  O  O  |     C Y B E R
+        |  \___/ |     G U A R D I A N
+        |_______| 
+       /|         |\    [ ENCRYPT . DEFEND . PROTECT ]
+      / |         | \
+     /  |_________|  \   ""The lock on your digital door.""
+        |   | |   |
+        |___| |___|
+         /         \
+        /___________\
 ");
             Console.ResetColor();
-            Console.ResetColor();
-
             // Animated warning line
             Console.ForegroundColor = ConsoleColor.Yellow;
             for (int i = 0; i < 3; i++)
